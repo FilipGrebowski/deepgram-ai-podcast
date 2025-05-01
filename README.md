@@ -7,7 +7,6 @@ This project allows you to create a podcast-style interview with your future sel
 -   Record and transcribe your voice questions using Deepgram's nova-3
 -   Generate AI responses using Deepgram's aura-2 text-to-speech
 -   Combine audio files into a podcast-style format
--   Full automation of the podcast creation process
 
 ## Prerequisites
 
@@ -41,7 +40,7 @@ DEEPGRAM_API_KEY=your_actual_key_here
 
 ## Usage
 
-The project works in three simple steps:
+The project consists of three steps:
 
 1. **Transcribe your question**
 
