@@ -1,0 +1,27 @@
+{
+    "name": "ai-podcast",
+    "version": "1.0.0",
+    "description": "Create podcast-style interviews with your future self using Deepgram's AI speech models",
+    "main": "fullPodcast.js",
+    "scripts": {
+        "start": "node fullPodcast.js",
+        "transcribe": "node transcribe.js",
+        "generate": "node generateResponse.js",
+        "combine": "node combineAudio.js"
+    },
+    "keywords": [
+        "deepgram",
+        "ai",
+        "podcast",
+        "speech-to-text",
+        "text-to-speech"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@deepgram/sdk": "^3.0.0",
+        "dotenv": "^16.3.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "ffmpeg-static": "^5.2.0"
+    }
+}
